@@ -369,3 +369,24 @@ Build/
 .DS_Store
 *.csproj
 *.sln
+/.utmp
+/Library
+/UserSettings
+/ProjectSettings
+MyMasterpiece.apk
+/Assets/Joystick Pack
+/Assets/Advaita Assets
+/Assets/TextMesh Pro
+/Assets/WoodenSigns
+/Assets/SimpleNaturePack
+/Assets/Sprites
+/Assets/TutorialInfo
+Assets/Readme.asset
+/Assets/Settings
+/My project_BurstDebugInformation_DoNotShip
+/Assets/Scenes
+/Assets/Resources
+/Assets/Adaptive Performance
+/Assets/Prefabs
+Assets/InputSystem_Actions.inputactions
+/Assets/Editor
