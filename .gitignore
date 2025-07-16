@@ -361,3 +361,11 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+Temp/
+Obj/
+Build/
+.vscode/
+.DS_Store
+*.csproj
+*.sln
