@@ -9,15 +9,12 @@ public class GameManager : MonoBehaviour {
 
     public BannerDisplay bannerDisplay;
 
-    public Vector3 correctSign;
-
     public AnswerSign SignRight;
     public AnswerSign SignLeft;
 
     public List<Enemy> enemies;
     public Player player;
     public GameObject enemyPrefab;
-    public Transform enemySpawnPoint;
 
     public TextMeshProUGUI timerText;
     public float roundTime = 10f;
@@ -62,11 +59,9 @@ public class GameManager : MonoBehaviour {
         bool correctIsOnLeft = Random.value > 0.5f;
 
         if (correctIsOnLeft) {
-            correctSign = SignLeft.transform.position;
             SignRight.SetText(GetWrongAnswer(currentMeme.name));
             SignLeft.SetText(currentMeme.name);
         } else {
-            correctSign = SignRight.transform.position;
             SignLeft.SetText(GetWrongAnswer(currentMeme.name));
             SignRight.SetText(currentMeme.name);
         }

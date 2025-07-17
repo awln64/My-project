@@ -9,7 +9,6 @@ public class Enemy : MonoBehaviour {
     private Animator animator;
     private bool hasMoved = false;
     
-
     void Start() {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
